@@ -1,0 +1,36 @@
+title: "Into the Abyss"
+author: "Matt Burch"
+description: "Running blog content detailing TTPs and my running experience within infosec."
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+# email: "blog@gmail.com"
+# twitter_username: "someusername"
+#github_username: "githubuser"
+#linkedin_username: "linkedinuser"
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
