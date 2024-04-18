@@ -2,7 +2,7 @@ title: Into the Abyss
 author:
   name: Matt Burch (emptynebuli)
   url: https://emptynebuli.github.io/blog/
-  contact: https://emptynebuli.github.io/card/
+  contact: /card.html
 # email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -71,3 +71,5 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 
+# The github repo that is to be used for looking up comments
+comments_repo: emptynebuli/emptynebuli.github.io
