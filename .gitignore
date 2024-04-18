@@ -1,0 +1,11 @@
+.idea
+.git
+
+# Ignore build details
+_site
+404.html
+Gem*
+minima.gemspec
+readme_banner.svg
+script
+.jekyll-cache
