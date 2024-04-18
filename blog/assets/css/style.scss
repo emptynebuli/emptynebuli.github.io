@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+.callout.warning {
+  border-left: 3px solid #bbb;
+  padding: 12px 12px 12px 32px;
+  display: block;
+  position: relative;
+  overflow: auto;
+  border-left-color: #cf4d03;
+  background-color: #fee3d3;
+  color: #6a2802
+}
+
+.float.img-right {
+  height: 500px;
+  width: 300px;
+  margin-right: -300vw;
+  padding-left: calc(800px - 30px* 2);
+  float: left;
+  object-fit: cover;
+}

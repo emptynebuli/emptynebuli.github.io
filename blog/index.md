@@ -1,7 +1,9 @@
-This is your home page! Write whatever comes to mind.
-
-Maybe an about me section, or a short bio.
-
-Or maybe you can write a small summary about your blog.
-
-Whatever you want!
+---
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
+---
