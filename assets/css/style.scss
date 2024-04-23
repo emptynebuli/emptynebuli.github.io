@@ -21,7 +21,7 @@
   height: 500px;
   width: 300px;
   margin-right: -300vw;
-  padding-left: calc(800px - 30px* 2);
+  padding-left: calc(800px - (30px*2) + 10px);
   float: left;
   object-fit: cover;
 }
