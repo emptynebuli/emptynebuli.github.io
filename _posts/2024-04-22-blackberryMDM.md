@@ -280,7 +280,7 @@ Although interesting, there is one additional aspect that needs mentioning. Reca
 
 {% include image.html url="/assets/images/blackberry_img18.png" description="Figure 22: ECC Key Exchange" %}
 
-On the plus side, the public key only needs to be generated once and it can be submitted to the BlackBerry API numerous times - to validate username values. As I am not the best at coding, the following Frida script will hook the BlackBerry UEM client and recover the public/private keys for you - [here](https://github.com/emptynebuli/dauthi/blackberry.js)!!!
+On the plus side, the public key only needs to be generated once and it can be submitted to the BlackBerry API numerous times - to validate username values. As I am not the best at coding, the following Frida script will hook the BlackBerry UEM client and recover the public/private keys for you - [here](https://github.com/emptynebuli/dauthi/blob/main/blackberry.js)!!!
 
 To conclude, this attack surface has been included into my new framework [Dauthi](https://github.com/emptynebuli/dauthi) an MDM authentication framework for conducting various activities against MDM solutions.
 
