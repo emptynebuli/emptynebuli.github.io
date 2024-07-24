@@ -39,3 +39,6 @@ The goal of this blog is to provide back to the security community and free myse
 ### DefCon-32
 * Main Stage - [Where's The Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-speakers.html#54437)
 * IoT Village (Encore) - [Where's The Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-creator-talks.html#54580)
+
+### GrrCon 24'
+* [Where's The Money: Defeating ATM Disk Encryption](https://grrcon.com/presentations/)
