@@ -67,11 +67,11 @@ $(function () {
 	});
 	
 	// Show QR code link if it exists
-	$.get($('#qrcode').attr('src'), function() {
-		$('#qrcode-link').removeClass('is-hidden');
+	$.get($('#about').attr('src'), function() {
+		$('#about-link').removeClass('is-hidden');
 	}).fail(function() {
-		$('#qrcode-link i').remove();
-		$('#qrcode').remove();
+		$('#about-link i').remove();
+		$('#about').remove();
 	});
 
 	// Get vCard data
@@ -80,7 +80,7 @@ $(function () {
 		
 			// Social profile IDs 
 			socials = [
-				'WhatsApp', 'Telegram', 'Viber', 'VK', 'Facebook', 'Instagram', 'Twitter', 'Flickr', 'LinkedIn', 'GitHub', 'KeyBase', 'Reddit',
+				'WhatsApp', 'Telegram', 'Viber', 'VK', 'Facebook', 'Instagram', 'Twitter', 'Flickr', 'LinkedIn', 'GitHub', 'KeyBase', 'Reddit', 'Discord'
 			],
 			
 			fields = [

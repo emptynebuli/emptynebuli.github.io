@@ -164,21 +164,21 @@ body.dark .head .round.text {
 	padding: 45px;
 }
 
-.head img.qrcode {
+.head img.about {
 	background-color: rgb(255, 255, 255);
 	
 	padding: 45px;
 }
 
 .head .vcard-link, 
-.head .qrcode-link, 
+.head .about-link, 
 .head .note-link, 
 .head .url {
 	position: absolute; 
 	cursor: pointer;
 }
 		
-.head .vcard-link, .head .qrcode-link {
+.head .vcard-link, .head .about-link {
 	top: 0;
 	padding-bottom: 10px;
 }
@@ -188,7 +188,7 @@ body.dark .head .round.text {
 	padding-right: 10px;
 }
 
-.head .qrcode-link {
+.head .about-link {
 	right: 0;
 	padding-left: 10px;
 }
