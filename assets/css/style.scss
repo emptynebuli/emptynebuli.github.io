@@ -17,11 +17,14 @@
   color: #6a2802
 }
 
-.float.img-right {
-  height: 500px;
-  width: 300px;
+.float-right {
   margin-right: -300vw;
   padding-left: calc(800px - (30px*2) + 10px);
   float: left;
+}
+
+.float-right img {
+  height: 500px;
+  width: 300px;
   object-fit: cover;
 }

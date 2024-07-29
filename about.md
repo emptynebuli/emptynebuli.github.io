@@ -3,7 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-<a href="/card" ><img class="float img-right" src="/assets/images/cover-photo.jpeg"></a>
+<div class="float-right">
+  <a href="/card" title="Contact"><img src="/assets/images/cover-photo.jpeg" /></a>
+</div>
 
 I am a security researcher with over 20yrs of experience within the InfoSec community. Through my career I have evaluated the Threat Vector of numerous organizations from both the defensive and offensive perspectives. After trying numerous hats, I grew a passion for hardware, IoT, and purpose build / kiosk based platforms. My research in this space has awareded me several MITRE CVE and enabled me to conduct non-testimonial expert witness activities in the realm of ATM security.
 
@@ -42,3 +44,6 @@ The goal of this blog is to provide back to the security community and free myse
 
 ### GrrCon 24'
 * [Where's The Money: Defeating ATM Disk Encryption](https://grrcon.com/presentations/)
+
+### SANS HackFest 24'
+* Coming Soon ;)
