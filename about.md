@@ -42,16 +42,16 @@ The goal of this blog is to provide back to the security community and free myse
 ## Speaking Engagements
 
 ### DefCon-32
-* Main Stage - [Where's The Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-speakers.html#54437)
+* Main Stage - [Where's the Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-speakers.html#54437)
   * Slides [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf)
   * White-Paper [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/(White%20Paper)%20-%20Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption-white%20paper.pdf)
   * Recordings - *Coming Soon ;)*
-* IoT Village (Encore) - [Where's The Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-creator-talks.html#54580)
+* IoT Village (Encore) - [Where's the Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-creator-talks.html#54580)
   * Slides [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20IoT%20Village%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf)
   * Recordings - *Coming Soon ;)*
 
 ### GrrCon 24'
-* [Where's The Money: Defeating ATM Disk Encryption](https://grrcon.com/presentations/)
+* [Where's the Money: Defeating ATM Disk Encryption](https://grrcon.com/presentations/#burch)
 
 ### SANS HackFest 24'
-* Coming Soon ;)
+* [Where's the Money: Defeating ATM Disk Encryption](https://www.sans.org/cyber-security-training-events/hackfest-summit-2024/)
