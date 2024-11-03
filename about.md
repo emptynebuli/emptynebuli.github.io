@@ -39,20 +39,22 @@ The goal of this blog is to provide back to the security community and free myse
 ## Media Coverage
 * WIRED Magazine - [ATM Software Flaws Left Piles of Cash for Anyone Who Knew to Look](https://www.wired.com/story/vss-atm-vulnerabilities-defcon-2024/)
 
-## Speaking Engagements
+## Public Talks
 
-### DefCon-32
-* Main Stage - [Where's the Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-speakers.html#54437)
-  * Slides [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf)
-  * White-Paper [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/(White%20Paper)%20-%20Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption-white%20paper.pdf)
-  * Recordings - *Coming Soon ;)*
-  <br><br>
-* IoT Village (Encore) - [Where's the Money: Defeating ATM Disk Encryption](https://defcon.org/html/defcon-32/dc-32-creator-talks.html#54580)
-  * Slides [here](https://github.com/emptynebuli/SpeakingEvents/blob/main/DefCon32/Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption.pdf) && [here](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20IoT%20Village%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf)
-  * Recordings - *Coming Soon ;)*
+### Where's the Money: Defeating ATM Disk Encryption
+#### Abstract
+Holding upwards of $400,000, ATMs continue to be a target of opportunity and have seen over a 600% increase in crime in the last few years. Over the last four years, I have conducted research with another colleague into the enterprise ATM industry which resulted in the discovery of 6 vulnerabilities in Diebold Nixdorf’s Vynamic Security Suite (VSS), the most prolific ATM security solution in the market. 10 minutes or less is all that a malicious actor would need to gain full control of any system running VSS via offline code injection and enable decryption of the primary Windows OS. Diebold Nixdorf is one of three major North American enterprise class ATM manufacturers with a global presence in the financial, casino/gaming, and point-of-sale markets. Similar attack surfaces are currently being used in the wild and impact millions of systems across the globe. Furthermore, VSS is known to be present throughout the US gaming industry, including most of the ATM/cash-out systems across Vegas.
 
-### GrrCon 24'
-* [Where's the Money: Defeating ATM Disk Encryption](https://grrcon.com/presentations/#burch)
+This session will explore the technical intricacies of this research, review the convoluted ATM market, and reveal the discovery process of these vulnerabilities. The Full Disk Encryption module of VSS conducts a complex integrity validation process to ensure a trusted system state. Executed in a layered approach during system initialization. Examination of the inner workings of this process will highlight various deficiencies, each demonstrated through PoC exploitation.
 
-### SANS HackFest 24'
-* [Where's the Money: Defeating ATM Disk Encryption](https://www.sans.org/cyber-security-training-events/hackfest-summit-2024/)
+Each vulnerability presented in this session has been observed to have a recursive impact across all major versions of VSS and represents a systemic ongoing risk. We will examine root-cause, vendor remediation steps, and short-comings thereof – perpetuating the attack narrative. In conclusion, proper mitigation techniques and procedures will be covered, providing valuable insights into defending against potential compromise.
+
+* Paper/Slides/Demos: [Github](https://github.com/emptynebuli/SpeakingEvents/tree/main/Where's%20the%20Money%3A%20Defeating%20ATM%20Disk%20Encryption)
+
+* DefCon 32 - Main Stage
+  * Recording - [YouTube](https://www.youtube.com/watch?v=lF8NEsl3-kQ)
+* DefCon 32 - IoT Village (Encore Presentation)
+  * Recording - [DefCon Media Server](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20IoT%20Village%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption%20-%20Matt%20Burch.mp4)
+* GrrCon 24'
+* Hack Red Con 24'
+* SANS HackFest 24'
